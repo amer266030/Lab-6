@@ -1,15 +1,14 @@
 import './reservation.dart';
 
 void main(List<String> arguments) {
-  String? dateIn = "2024-12-20";
-  String? dateOut = "2024-12-20";
-
+  String? dateIn = "2024-12-25";
+  String? dateOut = "2024-12-25";
   String? timeIn = "10";
   String? timeOut = "12";
-  String? person;
+  String? person = "Sami";
   int? room = 12;
 
-  List<Map<String, dynamic>> user_reservation = [
+  List<Map<String, dynamic>> userReservation = [
     {
       "date_in": dateIn,
       "date_out": dateOut,
@@ -20,5 +19,5 @@ void main(List<String> arguments) {
     }
   ];
 
-  reservation(user_reservation);
+  checekReservation(userReservation);
 }
