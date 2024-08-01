@@ -6,4 +6,11 @@ class Hotel{
 
   Hotel({required String name, required List<String> rooms, required String location});
 
+  
+  getRoom(){}
+
+  addRoom(){}
+
+  
+  
 }
